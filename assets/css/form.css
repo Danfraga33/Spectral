@@ -1,0 +1,145 @@
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  line-height: 1;
+  color: #555;
+  font-weight: 400;
+  overflow-x: hidden;
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.section-form {
+  padding: 4.8rem 0 12.8rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #21b2a6;
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 3rem rgba(51, 51, 51, 0.421);
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 4.8rem 4rem 4.8rem;
+}
+
+#message {
+  width: 210%;
+}
+
+.form-title {
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 4rem;
+  color: #eee;
+}
+
+.form-text {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  color: #eee;
+  margin-bottom: 5.2rem;
+}
+
+.for-elements {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.for-elements label {
+  display: block;
+  font-size: 1.6rem;
+  color: #eee;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  background-color: #eee;
+}
+
+.for-elements input,
+.for-elements select {
+  background-color: #c8ece9;
+  font-size: 1.8rem;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 9px;
+  width: 100%;
+  color: #21b2a6;
+  font-family: inherit;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(78, 99, 235, 0.311),
+      rgba(230, 125, 34, 0.301)
+    ),
+    url("/Freelance/Portfolio/Spectral/images/form\ Image.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.form--btn {
+  background-color: #c8ece9;
+  color: #21b2a6;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  font-family: inherit;
+  align-self: end;
+  padding: 1.3rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input::placeholder {
+  color: #000;
+}
+
+/* button */
+
+.btn,
+.btn:link,
+.btn:active {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  /* color: #fff; */
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #eee;
+  color: #21b2a6;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #eee;
+  color: #21b2a6;
+  transition: all 0.2s;
+}
+
+.cta *:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22; */
+  /* outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
